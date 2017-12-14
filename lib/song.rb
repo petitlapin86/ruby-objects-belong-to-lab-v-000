@@ -1,10 +1,8 @@
 class Song
-  attr_accessor :title, :artist, :name
+  attr_accessor :title, :artist, :name #needs to belong to an artist # A song should be able to tell you the name of its artist:
 
 def initialize(title)
-  @title = title
+  @title = title #Songs should have a title.
 end
-#needs to belong to an artist
-#Songs should have a title.
-# A song should be able to tell you the name of its artist:
+
 end #ends song class
